@@ -317,5 +317,19 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
-    }
+    },
+    {
+        name: 'ServerCommunication',
+        extensionId: 'servercomm',
+        iconURL: musicIconURL,
+        insetIconURL: musicInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Make API requests to a server"
+                description="Description for the 'Server Communication' extension"
+                id="gui.extension.server_communication.description"
+            />
+        ),
+        featured: true
+    },
 ];

@@ -19,3 +19,16 @@ npm start
 ```
 
 Navigate to http://localhost:8601 in your browser.
+
+## Testing task 7
+
+Start the backend server:
+
+```bash
+cd server
+npm run start
+```
+
+Then, in `scratch-gui`, run `npm start` to start the scratch frontend.
+
+The extension `ServerCommunication` will be present in the extensions section.
