@@ -1,9 +1,0 @@
-[submodule "scratch-gui"]
-	path = scratch-gui
-	url = ./scratch-gui.git
-[submodule "scratch-vm"]
-	path = scratch-vm
-	url = ./scratch-vm.git
-[submodule "scratch-blocks"]
-	path = scratch-blocks
-	url = ./scratch-blocks.git

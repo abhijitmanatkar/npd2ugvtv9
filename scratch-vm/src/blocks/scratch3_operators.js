@@ -21,6 +21,7 @@ class Scratch3OperatorsBlocks {
             operator_multiply: this.multiply,
             operator_divide: this.divide,
             operator_square: this.square,
+            operator_square_root: this.square_root,
             operator_lt: this.lt,
             operator_equals: this.equals,
             operator_gt: this.gt,
@@ -57,6 +58,10 @@ class Scratch3OperatorsBlocks {
     square (args) {
         const n = Cast.toNumber(args.NUM1);
         return n*n;
+    }
+
+    square_root (args) {
+        return Math.sqrt(Cast.toNumber(args.NUM1));
     }
 
     lt (args) {

@@ -186,6 +186,7 @@ Blockly.Msg.OPERATORS_SUBTRACT = '%1 - %2';
 Blockly.Msg.OPERATORS_MULTIPLY = '%1 * %2';
 Blockly.Msg.OPERATORS_DIVIDE = '%1 / %2';
 Blockly.Msg.OPERATORS_SQUARE = 'Square %1';
+Blockly.Msg.OPERATORS_SQUAREROOT = 'Square root %1';
 Blockly.Msg.OPERATORS_RANDOM = 'pick random %1 to %2';
 Blockly.Msg.OPERATORS_GT = '%1 > %2';
 Blockly.Msg.OPERATORS_LT = '%1 < %2';

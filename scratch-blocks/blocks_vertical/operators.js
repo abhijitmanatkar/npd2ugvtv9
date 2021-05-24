@@ -144,6 +144,26 @@ Blockly.Blocks['operator_square'] = {
   }
 };
 
+Blockly.Blocks['operator_square_root'] = {
+  /**
+   * Block for returning the square root of a number.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": Blockly.Msg.OPERATORS_SQUAREROOT,
+      "args0": [
+        {
+          "type": "input_value",
+          "name": "NUM1"
+        }
+      ],
+      "category": Blockly.Categories.operators,
+      "extensions": ["colours_operators", "output_number"]
+    });
+  }
+};
+
 Blockly.Blocks['operator_random'] = {
   /**
    * Block for picking a random number.
